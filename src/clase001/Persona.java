@@ -57,8 +57,7 @@ public class Persona {
         return this.getApellido() + ", " + this.getNombre();
     }
 
-    public boolean esMayo(){
-        LocalDate fechaHoy = LocalDate.now();
-        return YEARS.between(this.edad,fechaHoy ) >= EDAD_ADULTO;
+    public boolean esMayor(){
+        return YEARS.between(this.edad,LocalDate.now() ) >= EDAD_ADULTO;
     }
 }

@@ -21,7 +21,7 @@ public class Main {
         System.out.println(YEARS.between(persona1.getEdad(),fechaHoy ));
         System.out.println(YEARS.between(persona2.getEdad(),fechaHoy ));
 
-        System.out.println(persona1.esMayo());
-        System.out.println(persona2.esMayo());
+        System.out.println(persona1.esMayor());
+        System.out.println(persona2.esMayor());
     }
 }

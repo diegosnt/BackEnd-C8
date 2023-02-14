@@ -20,7 +20,7 @@ class PersonaTest {
     }
     @Test
     void esAdulto() {
-        assertEquals(false, persona1.esMayo());
-        assertEquals(true, persona2.esMayo());
+        assertEquals(false, persona1.esMayor());
+        assertEquals(true, persona2.esMayor());
     }
 }
